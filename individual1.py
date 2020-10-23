@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# -*- config utf-8 -*-
+# -- coding: utf-8 --
 
-if __name__ == '__main__':
-    p = input('Введите предложение: ')
-    v = input('Введите 2 символа: ')
 
-    a = p.find(v)
-    print(a)
+a = input("Введите текст: ")
+b = input("Введите символ: ")
+print(f'Символ встречается в предложении: {a.count (b)} раз ')
+
+
